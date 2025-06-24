@@ -3,11 +3,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #Load data
-df=pd.read_csv("Data/sales_data.csv", encoding='ISO-8859-1')
+df=pd.read_csv("Data/sales_data.csv",encoding='ISO-8859-1')
 
 #url = "https://raw.githubusercontent.com/ybifoundation/Dataset/main/Superstore.csv"
-#df = pd.read_csv("https://raw.githubusercontent.com/ybifoundation/Dataset/main/Superstore.csv",
-    encoding='ISO-8859-1')
+#df = pd.read_csv("https://raw.githubusercontent.com/ybifoundation/Dataset/main/Superstore.csv",encoding='ISO-8859-1')
 
 # Clean column name in case it has leading/trailing spaces
 df.columns = df.columns.str.strip()
